@@ -11,6 +11,7 @@ const Home = ({ routes, params, children }) => (
             <Link to="/">Home</Link>
             <Link to="/apps">Application List</Link>
         </div>
+        hello word
         {children || 'Home Page'}
         <Alert style={{ margin: '16px 0' }} message="Click the navigation above to switch:" />
         <Breadcrumb routes={routes} params={params} />
